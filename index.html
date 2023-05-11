@@ -71,16 +71,30 @@
           text-align: justify;
         }
       
-        .download {
-          display: flex;
-          justify-content: center;
-          margin-top: 20px;
-        }
-      
-        .download img {
-          height: 80px;
-          margin: 0 10px;
-        }
+       .download {
+  display: flex;
+  justify-content: center;
+}
+
+.download-badge {
+  width: 200px;
+  height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .download-badge {
+    width: 150px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .download-badge {
+    width: 120px;
+    height: 48px;
+  }
+}
+
       </style>
 </body>
 </html>
