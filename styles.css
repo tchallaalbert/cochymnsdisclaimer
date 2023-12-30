@@ -1,0 +1,160 @@
+
+.teal-line {
+border-bottom: 2px solid teal;
+}
+.card {
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+padding: 20px;
+margin: 20px;
+}
+
+.card-content {
+display: flex;
+flex-direction: column;
+}
+
+h2 {
+color: #4d4d4d;
+font-size: 28px;
+margin-bottom: 20px;
+text-align: left;
+}
+
+p {
+color: #4d4d4d;
+font-size: 18px;
+line-height: 1.5;
+
+text-align: justify;
+}
+
+.download {
+display: flex;
+justify-content: left;
+}
+
+.download-badge {
+width: 200px;
+height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+.download-badge {
+width: 150px;
+height: 60px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.download-badge {
+width: 120px;
+height: 48px;
+}
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+th, td {
+border: 1px solid black;
+padding: 8px;
+text-align: left;
+}
+
+th {
+background-color: #f2f2f2;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    background-color: teal;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+  z-index: 100
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .close-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .mobile-nav-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .mobile-nav-list li {
+    margin-bottom: 20px;
+  }
+  
+  .mobile-nav-list a {
+    text-decoration: none;
+    color: teal; /* Change this to the desired color */
+    
+    font-size: 40px;
+  }
+  @media only screen and (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav-list {
+      display: none;
+    }
+  }
+  
+  .logo img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+  }

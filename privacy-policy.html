@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - COC HYMNS</title>
     <link rel="icon" type="image/png" href="icon.png">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The 'Church of Christ Hymns' (COC HYMNS) App was designed to provide brethren with access to a wide range of hymns and spiritual songs suitable for all services of the church and special occasions. It provides access to a collection of hymns for personal and non-commercial use only. For commercial uses, see the terms and conditions of the composers or publishers of the hymns or songs.">
+   
+   
+   
+    <link rel="stylesheet" href="/styles.css">
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -59,6 +67,31 @@
 </head>
 
 <body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="/icon.png" alt="CoC Hymns">
+          </div>
+          
+        <div class="menu-icon">&#9776;</div>
+        <ul class="nav-list">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.takdevo.cochymns" target="_blank">Android App</a></li>
+          <li><a href="https://cochymn.web.app/" target="_blank">IOS APP</a></li>
+          <li><a href="/privacy-policy.html" >Privacy Policy</a></li>
+
+        </ul>
+      </div>
+    
+      <div class="mobile-menu">
+        <div class="close-icon">&times;</div>
+        <ul class="mobile-nav-list">
+            <li><a href="/index.html" >Home</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.takdevo.cochymns" target="_blank">Android App</a></li>
+            <li><a href="https://cochymn.web.app/" target="_blank">IOS App</a></li>
+            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+
+        </ul>
+      </div>
     <header>
         <h1>COC HYMNS Privacy Policy</h1>
     </header>
@@ -81,30 +114,20 @@
         <p>COC HYMNS utilizes Firebase Cloud Messaging (FCM), a service provided by Google, to enable push notifications within the app. FCM is a third-party service that facilitates the delivery of messages to your device. We do not have control over the data collection practices of FCM, and you are encouraged to review Google's Privacy Policy for more information on how FCM handles user data. FCM is used to inform you of any updates released through push notifications.</p>
        
         <h2>Children's Privacy</h2>
-        <p>COC HYMNS is intended for general audiences and does not knowingly collect any personal information from children under the age of 13. If you believe that we may have collected information from a child under the age of 13, please contact us at <a href="mailto:takdevo75@gmail.com">takdevo75@gmail.com</a>, and we will promptly address the issue.</p>
+        <p>COC HYMNS is intended for general audiences and does not knowingly collect any personal information from children under the age of 13. If you believe that we may have collected information from a child under the age of 13, please contact us <a href="mailto:takdevo75@gmail.com">here</a>, and we will promptly address the issue.</p>
         <h2>Changes to This Privacy Policy</h2>
         <p>We reserve the right to update our Privacy Policy from time to time. Any changes will be effective immediately upon posting the updated Privacy Policy in the app. Your continued use of COC HYMNS after the posting of the updated Privacy Policy constitutes your acceptance of the changes.</p>
 
         <h2>Contact Us</h2>
-        <p>If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:takdevo75@gmail.com">takdevo75@gmail.com</a>.</p>
+        <p>If you have any questions or concerns about this Privacy Policy, please contact us  <a href="mailto:takdevo75@gmail.com">here</a>.</p>
     </main>
 
     <footer>
         &copy; <span id="currentYear"></span> COC HYMNS. All rights reserved.
     </footer>
 
-    <script>
-        // JavaScript to dynamically increment the section number
-        let sectionNumber = 0;
-
-        document.querySelectorAll("h2").forEach((element) => {
-            sectionNumber++;
-            element.innerHTML = `${sectionNumber}. ${element.innerHTML}`;
-        });
-
-        // JavaScript to display the current year
-        document.getElementById("currentYear").textContent = new Date().getFullYear();
-    </script>
+    
+    <script src="/scripts.js"></script>
 </body>
 
 </html>
